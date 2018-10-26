@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'MetaProNormal';
+    src: url('../fonts/MetaPro-Normal.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetaProMedium';
+    src: url('../fonts/MetaPro-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetaProBold';
+    src: url('../fonts/MetaPro-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetaProBlack';
+    src: url('../fonts/MetaPro-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpaceMonoBold';
+    src: url("../font/SpaceMono-Bold");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    height: 100%;
+    width:100%;
+    position: absolute;
+    background-color: #E6E6E6; 
+}
+
+a:link    {color:black; background-color:transparent; text-decoration:none; font-weight: bold}
+a:visited {color:black; background-color:transparent; text-decoration:none}
+a:hover   {color:black; background-color:transparent; text-decoration:none; font-weight: bolder}
+
+
+/* font */
+
+h2{
+    font-family: "MetaProBlack";
+    font-size: 34px;
+    letter-spacing: 1.6px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 10px; 
+    margin-bottom: 0px;
+}
+
+h3{
+    font-family: 'Space Mono', monospace; 
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 0px;
+}
+
+h4{
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    letter-spacing: ;
+    line-height: 21px;
+    color: #333333;
+    text-align: left;
+    margin: 0 0 0 0;
+    font-weight: bolder;
+    
+    margin-top: 8px;
+    text-align: center;
+}
+
+u{
+    text-decoration: none;
+    color: #0400e7;
+    border-top: 2px solid;
+    padding-top: 6px;
+}
+
+h5{
+    font-family: "MetaProBold";
+    font-size:14px;
+    letter-spacing: 0.5;
+    text-transform:uppercase;
+    margin-right: 20px;
+    display: inline-block;
+    padding-top: 0px;
+    color: #0400e7;
+    
+}
+
+h6{
+    font-family: "MetaProMedium";
+    font-size: 16px;
+    color: #333333;
+    text-transform:capitalize;
+}
+
+h6 mark{
+    background-color: transparent;
+    color: #0400e7;
+    font-family: "MetaProBold";
+    font-weight: 100;
+    font-size: 16px;
+    padding-left: 1px;
+}
+
+/*only mobile*/
+h7{
+    font-family: "MetaProBold";
+    font-size: 18px;
+    letter-spacing: 2  ;
+    line-height: 21px;
+    color: #333333;
+    text-align: left;
+    margin: 0 0 0 0;  
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    border-top: 3px solid #0400e7;    
+    padding-top: 14px;
+}
+
+h7 mark{
+    background-color: transparent;
+    color: #0400e7;
+    font-family: "MetaProBold";
+    font-weight: 100;
+    font-size: 20px;
+    padding-left: 1px;
+}
+
+p{
+    font-family: 'Space Mono', monospace; 
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    margin: 30 0 30 0    
+}
+
+p {
+    font-feature-settings: "liga"  0; 
+}
+
+.underline-1{
+	border-bottom: 3px solid #0000ff;
+}
+
+/*menu */
+
+.nav > li > a {
+    padding: 7 0 0 15;
+    position: relative;
+    text-transform: lowercase;
+    font-size: 16px;
+    color: #333333;
+    display: inline-block;
+    font-family: "MetaProMedium";  
+    font-weight: lighter;
+}
+
+#nav > li > a:hover {
+    color: #333333;
+    cursor: pointer;
+    font-family: "MetaProBold";
+    text-decoration: none;
+    background: transparent;
+}
+
+#menu-barra{
+    position: fixed;
+    width: 200px;
+}
+
+#menu-xs > div {
+    display: inline-block;
+    width: 49%;
+    text-align: center;   
+}
+
+#menu-xs{
+    position: fixed;
+    background: #e6e6e6;    
+    z-index: 9999;
+    width: 100%;
+    padding: 25 0 8;
+    
+    
+    
+}
+
+#menu-xs a:link    {background-color:transparent; text-decoration:none}
+#menu-xs a:visited {background-color:transparent; text-decoration:none}
+#menu-xs a:hover   {background-color:transparent; text-decoration:none;}
+
+#nav a:link    {background-color:transparent; text-decoration:none}
+#nav a:visited {background-color:transparent; text-decoration:none}
+#nav a:hover   {background-color:transparent; text-decoration:none;}
+
+
+
+
+
+
+#mail-icon{
+    margin-right: 10px;
+    max-width: 20px;
+}
+
+/*classi*/
+
+.names{
+    margin-top: 20px;
+    padding-left: 15px;
+    margin-bottom:0px;
+}
+
+.intro{
+    padding-left: 0px;
+}
+
+.full-website{   
+    display: table;
+    margin: 0 auto;
+}
+
+.btn-mio{
+    background-color: transparent;
+    border: 2px solid #0400e7;
+    
+    color: #0400e7;
+    border-radius: 0px;
+    width: 300px;
+    height: 50;
+    margin-top: 40px;
+    font-family: 'MetaProMedium';
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.btn-mio:focus,
+.btn-mio.focus {
+  color: #0400e7;
+  background-color: #f1f2f2;
+  border-color: #f1f2f2;
+  text-decoration: none !important;
+  font-family: 'MetaProMedium';
+  font-weight: 500;
+  letter-spacing: 0.5px;
+
+}
+.btn-mio:hover {
+ color: #ffffff;
+ font-weight: 500;    
+ background-color: #0400e7;
+ border-color: #0400e7;
+ text-decoration: none !important;
+ font-family: 'MetaProMedium';
+ letter-spacing: 0.5px;   
+}
+
+.btn-mio:focus, .btn-mio:active, .btn-mio:focus:active {
+  background-image: none !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+project-by{
+    margin-bottom: 50px;
+}
+
+.my-portfolio{
+    padding-left:0;
+    padding-right: 0;
+    margin-top:90px;
+}
+
+
+/*immagini */
+
+.img-1{
+    margin-top: 20px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .my-portfolio{
+        margin-top: 70px;
+    }
+    
+    #mail-icon{
+        max-width: 30px;
+        margin-right: 25px;
+    }
+}
