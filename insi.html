@@ -4,13 +4,11 @@
 
 <head>
     
-    <link rel="shortcut icon" href="image/Favicon-01.png" type="image/png">
+    <link rel="icon" href="image/extra/favicon.png" type="image/png">
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-    
-    <style>@import url('https://fonts.googleapis.com/css?family=Space+Mono');</style>
+    <link href="https://fonts.googleapis.com/css?family=Glegoo|Hind:300|IBM+Plex+Sans:100,200,300,400,500,600,700" rel="stylesheet">
 
     <title>Giacomo Flaim - It's not so Isis</title>
     
@@ -18,9 +16,7 @@
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style-project.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style-t.css">
-    <link rel="stylesheet" href="css/style-responsive.css">
-    <link rel="stylesheet" href="css/animate.min.css">
+   
     
     
     <script>
@@ -34,85 +30,99 @@
     
 </head>
     
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="300">
+
+  
+<!--Vecchia navbar
+<nav class="navbar-custom navbar-fixed-top nav-up" role="navigation">
+        <div class="container-fluid container-navbar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" onclick="openMenu()">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <div class="col-md-12 collapse navbar-collapse navbar-main-collapse">
+                <ul class="nav navbar-nav" onclick="openMenu()">
+                    <li><a id="logo" href="#intro">Giacomo Flaim</a></li>
+					<li><a class="other-menu" href="#about">Right</a></li>
+      				<li><a class="other-menu" href="#contact">Right</a></li>
+                </ul>
+				<ul class="nav navbar-nav navbar-right">
+				</ul>
+            </div>
+        </div>
+ </nav>
+	
     
-    <div id="menu-xs" class="hidden-md hidden-lg hidden-sm">
-          <div>
-                <a href="index.html"><h7>HOME</h7></a>
-          </div> 
-          <div>
-            <a href="mailto:giacomo.flaim@gmail.com" class="text-uppercase">
-                        <h7><img id="mail-icon" src="./image/extra/mail.svg">say Hello<mark>!</mark></h7>
-            </a>
-          </div>
-    </div>
-    
-<div class="container my-portfolio" class="scroll-area"> 
-    
+<!-- MENU XS SM -->
+
+<nav class="navbar navbar-custom navbar-fixed-top container container-navbar nav-up" role="navigation">
+	
+	  <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		</button>    
+	  </div>
+	  <div class="navbar-collapse collapse"style="margin-top: 1rem;">
+		<ul class="nav navbar-nav navbar-left">
+			<li><a href="#">Giacomo Flaim</a></li>
+
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+		  <li><a href="#about">about me</a></li>
+		  <li><a href="#contact">Say hello!</a></li>
+		</ul>
+	  </div>
+	
+</nav>   
         
       
-        <div class="col-md-3 col-sm-3 hidden-xs" style="padding-top:40px">
-        <div id="menu-barra">
-            <div class="row">
-                <ul class="nav nav-stacked affix-top nnav" id="nav">
-                    <li ><a href="./index.html">about me</a></li>
-                    <li><a href="./index.html">works</a></li>
-                    <li><a href="./index.html">photography</a></li>      
-                </ul>            
-            </div>
       
-            <div class="row" style="margin-top:10px;">
-                <div class="col-md-12 col-sm-12">
-                    <a href="mailto:giacomo.flaim@gmail.com" class="text-uppercase">
-                        <h6 class="hello-mail"><img id="mail-icon" src="./image/extra/mail.svg">say Hello<mark>!</mark></h6>
-                    </a>
-                </div>
-            </div>
-        </div>
-        </div>
-        
-        <div class="col-md-9 col-sm-9 col-xs-12">
-            <h5>Information Design</h5> <h5>Web Design</h5>
-            <h2>It's not so Isis</h2>
-            <h3>The complex shape of terrorism with its ideological vertices,<br>illustrated through data.</h3>
-            
-            <img src="./image/insi/inizio_Ok.gif" class="img-responsive img-1">
-            
-            
-            
-            <div class="col-md-12 intro">
-                <p>In the 2016/2017 edition of the Final Synthesis Studio at <a class="prova23" href="http://www.densitydesign.org" target="_blank">Density Design Lab</a> we were asked to use information visualization, both as an analytical and a communicative tool, to observe, understand, shape and communicate complex phenomena. In the first part of the course, we had to find and collect data from official sources, so we could get a first grasp of the depth and complexity of these issues. The result is a series of visualizations that represented a general overview of the topic, seen with the eyes of the “official” sources.</p>
-            </div>
-            
-            
-            
-            <img src="./image/insi/methaph-1.gif" class="img-responsive">
-            
-            <p>In order to analyse the primary version of terrorism, the one provided by data, we merged together two different datasets from START consortium: the GTD and BAAD2. We selected 120 terroristic groups and analysed their activities throughout 18 years - from 1998 to 2015 - in order to display a clear picture of the terrorist attacks evolution over time and by the sources.</p>
-            
-            <img src="./image/insi/insi3.png" class="img-responsive" style="margin-bottom: 20px">
-            
-            <div class="row full-website" style="margin-bottom: 90px">
-                <a href="http://labs.densitydesign.org/ddxii/es01/group04/index.html" target="_blank">
-                    <button type="button" class="btn btn-lg btn-mio" style="padding-top:12px">Explore the full website</button>
-                </a>
-            </div>
-            <div style="margin-bottom: 100px;">
-                <h4><u>project by</u></h4>
-                <h4>Francesco Cosmai | Giacomo Flaim | Francesco Giudice | Barbara Nardella | Giulia Zerbini</h4>
-            </div>
-            
-            <div style="margin-bottom: 100px;">
-                <h4 style="text-align:center"><u>other projects</u></h4>
-                <h4 style="text-align:center; line-height:30px">Are you sure? pt.1 | Are you sure? pt.2 | Do you smoke? | When I woke up | Pigeons |<br> Civiltà Contadina | ...coming soon |</h4>
-            </div>
-          
-          
-        </div>
-        
-          
-        
+<div class="container" style="margin-top: 120px;">        
+<div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12">
+	<h5>Information Design</h5> <h5>Web Design</h5> <h5>UX/UI</h5>
+	<h2>It's not so Isis</h2>
+	<h3>The complex shape of terrorism with its ideological vertices,<br>illustrated through data.</h3>
+
+	<img src="./image/insi/inizio_Ok.gif" class="img-responsive img-1">
+
+
+
+	<div class="col-md-12 intro">
+		<p>In the 2016/2017 edition of the Final Synthesis Studio at <a class="link_style" href="http://www.densitydesign.org" target="_blank">Density Design Lab</a> we were asked to use information visualization, both as an analytical and a communicative tool, to observe, understand, shape and communicate <span class="t_h">complex phenomena</span>.<br>In the first part of the course, we had to find and collect data from official sources, so we could get a first grasp of the depth and complexity of these issues. The result is a series of visualizations that represented a <span class="t_h">general overview</span> of the topic, seen with the eyes of the “official” sources.</p>
+	</div>
+
+
+
+	<img src="./image/insi/methaph-1.gif" class="img-responsive" style="width:100%">
+
+	<p>In order to analyse the primary version of terrorism, the one provided by data, we merged together two different datasets from START consortium: the GTD and BAAD2. We selected <span class="t_h">120 terroristic groups</span> and analysed their activities throughout 18 years - <span class="t_h">from 1998 to 2015</span> - in order to display a clear picture of the terrorist attacks evolution over time and by the sources.</p>
+
+	<img src="./image/insi/insi3.png" class="img-responsive" style="margin-bottom: 20px">
+
+	<div class="row full-website" style="margin-bottom: 90px">
+		<a href="http://labs.densitydesign.org/ddxii/es01/group04/index.html" target="_blank">
+			<button type="button" class="btn my-btn" style="padding-top:12px">Explore the full website</button>
+		</a>
+	</div>
+	<div style="margin-bottom: 100px;">
+		<h4><u>project by</u></h4>
+		<h4>Francesco Cosmai | Giacomo Flaim | Francesco Giudice | Barbara Nardella | Giulia Zerbini</h4>
+	</div>
+
+	<div style="margin-bottom: 100px;">
+		<h4 style="text-align:center"><u>other projects</u></h4>
+		<h4 style="text-align:center; line-height:30px">Are you sure? pt.1 | Are you sure? pt.2 | Do you smoke? | When I woke up | Pigeons |<br> Civiltà Contadina | ...coming soon |</h4>
+	</div>
+
+
 </div>
+</div>
+        
+          
+     
  
 
 
