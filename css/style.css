@@ -142,13 +142,13 @@ h7{
 .container-navbar{
     background: white;
     width: 100vw;
-	border-top:0px;
+	/*border-top:0px;
 	border:0px;
 	border-bottom: 2px solid transparent;
 	background: linear-gradient;
   	border-image: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
   	border-image-slice: 1;	
-	transition: top 0.7s ease-in-out;
+	transition: top 0.7s ease-in-out;*/
 }
 
 .navbar-custom {
