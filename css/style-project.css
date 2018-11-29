@@ -69,13 +69,33 @@ h5{
     display: inline-block;
     padding-top: 0px;
     color: rgb(113, 7, 252);
-    background-image:linear-gradient(180deg,transparent 60%, rgba(116, 223, 239,.4) 0);
+    /*background-image:linear-gradient(180deg,transparent 60%, rgba(116, 223, 239,.4) 0);*/
 }
 
 h6{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 14px;
     color: #333333;	
+}
+
+h7{
+    font-family: 'IBM Plex Sans', sans-serif;
+	letter-spacing: 1.;
+	font-weight: 500;
+    font-size: 13px;
+    background-image: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
+  	color: transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
+}
+
+#cuore{
+	font-size: 15px;
+	color: transparent;
+ 	background-image: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
+  	color: transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
 }
 
 .team_link{
@@ -105,29 +125,7 @@ h6 mark{
 }
 
 
-h7{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 18px;
-    letter-spacing: 2  ;
-    line-height: 21px;
-    color: #333333;
-    text-align: left;
-    margin: 0 0 0 0;  
-    margin-top: 8px;
-    text-align: center;
-    text-decoration: none;
-    border-top: 3px solid #0400e7;    
-    padding-top: 14px;
-}
 
-h7 mark{
-    background-color: transparent;
-    color: #0400e7;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    padding-left: 1px;
-}
 
 p{
     font-family: 'IBM Plex Sans', sans-serif;

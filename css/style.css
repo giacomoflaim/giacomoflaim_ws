@@ -23,7 +23,7 @@ h1{
 	background: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
   	-webkit-background-clip: text;
   	-webkit-text-stroke: 4px transparent;
-  	color: white;    
+  	    
 }
 
 .punto{    
@@ -56,28 +56,26 @@ h2{
 }
 
 
-p{
+h7{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 15px;
-    line-height: 25px;
-	margin-left: 5px;
-	margin-top: 50px;
-    padding-left: 0px;
-	font-weight: 500px;
-	letter-spacing:
+	letter-spacing: 1.;
+	font-weight: 500;
+    font-size: 13px;
+    background-image: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
+  	color: transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
 }
 
-p mark{
-    background-color: #0400e7;
-    color: #E6E6E6;
-    font-weight: 100;
-    font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 1px;
-    padding-bottom: 2px;
-    
+#cuore{
+	font-size: 15px;
+	color: transparent;
+ 	background-image: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
+  	color: transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
 }
+
 
 .giacomo{
     width: 16px;
