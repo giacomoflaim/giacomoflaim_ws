@@ -223,11 +223,6 @@ p {
 	font-size: 15px;
 	letter-spacing: 0.6px;
     font-weight: 600;
-	
-	
-	
-  	
-	
 }
 
 .my-btn{
@@ -250,6 +245,11 @@ p {
   	color: white;
   	-webkit-background-clip:innerhit;
   	background-clip: inherit;
+}
+
+.centrato{
+	padding-left: 52px;
+	padding-right: 52px;
 }
 
 
