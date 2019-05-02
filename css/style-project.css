@@ -89,6 +89,20 @@ h7{
   	background-clip: text;
 }
 
+h8{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.3px;   
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  
+  flex-direction: row;
+}
+
 #cuore{
 	font-size: 15px;
 	color: transparent;
