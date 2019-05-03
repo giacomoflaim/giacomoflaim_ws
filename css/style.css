@@ -58,9 +58,20 @@ h2{
 
 h7{
     font-family: 'IBM Plex Sans', sans-serif;
-	letter-spacing: 1.;
+	letter-spacing: 1;
 	font-weight: 500;
     font-size: 13px;
+    background-image: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
+  	color: transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
+}
+
+.copyright{
+    text-align: center; !important   
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
     background-image: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
   	color: transparent;
   	-webkit-background-clip: text;
@@ -82,51 +93,7 @@ h7{
 
 
 
-/*
 
-h4{
-    font-family: 'Space Mono', monospace;    
-    font-size: 13px;
-    letter-spacing: 1px;
-    text-transform:lowercase;
-    text-align: center;
-    color: white; 
-    margin-top: 0px;
-}
-
-h6{
-    font-family: "MetaProMedium";
-    font-size: 16px;
-    color: #333333;
-    text-transform:capitalize;
-}
-
-h6 mark{
-    background-color: transparent;
-    color: #0400e7;
-    font-family: "MetaProBold";
-    font-weight: 100;
-    font-size: 16px;
-    padding-left: 1px;
-}
-
-h7{
-    font-family: 'Space Mono', monospace;
-    font-size: 15;
-    letter-spacing: 2px;
-    line-height: 21px;
-    color: #333333;
-    font-weight: bolder; 
-    margin-top: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-top: 2.3px solid #0400e7;    
-    padding-top: 4;
-    display: table;
-    margin: 0 auto;
-    margin-bottom: 25px;
-}
-*/
 
 
 .img-thumb{
@@ -157,16 +124,20 @@ h7{
     
 }
 
-.navbar-my li a {
-    margin: 0 30px;
+.navbar-my li a {    
 	font-weight: 500;
+    margin: 0 30 0 0;
     background-image: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
   	color: transparent;
   	-webkit-background-clip: text;
   	background-clip: text;
-    padding: 6px;
-    
+    padding: 6px;    
 }
+
+#hello-dx{
+   
+}
+
 
 .nav-up{
 	top:-110px;	
@@ -254,8 +225,7 @@ img {
 
 .image-portfolio {
 	padding-top:20px;
-	padding-bottom: 20px;
-	
+	padding-bottom: 20px;	
 	cursor: pointer;
 }
 
@@ -476,11 +446,44 @@ left: 50%;
   }
 }
 
+@media (min-width: 800px) {
+    .only-mobile{
+        display: none;
+    }
+    
+}
 
-@media (max-width: 992px) {
+
+@media (max-width: 800px) {
     
     .copertina{
         height: 100vh;
+    }
+    
+    h1{
+        font-size: 16rem;
+        -webkit-text-stroke: 5px transparent;
+    }
+    
+    .punto{
+        font-size: 8rem;
+    }
+    
+    h2{
+        font-size: 2rem;
+        line-height: 4rem;
+        margin-left: 15px;            
+    }
+    
+    .normal-foot{
+        display: none;
+    }
+    
+    .navbar-my li a {
+        margin: 0 0 0 0;}
+    
+    #hello-dx{
+        margin-left: 30px;
     }
     
 }
@@ -491,44 +494,27 @@ left: 50%;
 
 @media (max-width: 640px) {
    
-    /*hello */
-    h1{
+   h1{
         font-size: 11rem;
         letter-spacing: 3.5rem;
     }
 
     .punto{
-        font-size: 8rem;
+        font-size: 6rem;
         letter-spacing: 18px;          
     }
     
-    
-    
     .copertina{
-        height: 500px;
+        height: 100vh;
     }
     
-    p{
-    font-family: 'Space Mono', monospace;
-    font-size: 20px;
-    line-height: 40px;
-    padding-left: 0px;    
+    #hello-dx{
+        margin-left: 0px;
     }
     
-    p mark{
-        font-size: 20px;
-        line-height: 40px;
-    }
-    
-    #about{
-        
-    }
-    
-
 }
 
-@media (max-width: 540px) {
-   
+@media (max-width: 540px) {   
     /*hello */
     h1{
         font-size: 6.5rem;
@@ -543,12 +529,13 @@ left: 50%;
     h2{
         font-size: 1.6rem
     }
-    
-    
+        
     .copertina{
         height: 100vh;
     }
 }
+
+
 
 
 .nnav a:link    {color:black; background-color:transparent; text-decoration:none}

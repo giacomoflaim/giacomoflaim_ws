@@ -96,12 +96,7 @@ h8{
     letter-spacing: 0.3px;   
 }
 
-.vertical-align {
-  display: flex;
-  align-items: center;
-  
-  flex-direction: row;
-}
+
 
 #cuore{
 	font-size: 15px;
@@ -205,9 +200,26 @@ p {
 
 }
 
-
+.copyright{
+    text-align: center; !important   
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    background-image: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
+  	color: transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
+}
 
 /*classi*/
+
+.top-120{
+    margin-top: 120px;
+}
+
+.m-80{
+    margin: 80 0 80 0;
+}
 
 .names{
     margin-top: 20px;
@@ -348,10 +360,25 @@ project-by{
     margin-top: 20px;
 }
 
+@media (min-width: 780px) {
 
-
+    .vertical-align {
+            display: flex;
+            align-items: center;  
+            flex-direction: row;
+    }
+    
+    .only-mobile{
+        display: none;
+    }
+}
 
 @media (max-width: 768px) {
+    
+    .normal-foot{
+        display: none;
+    }
+    
     .my-portfolio{
         margin-top: 70px;
     }
@@ -360,4 +387,34 @@ project-by{
         max-width: 30px;
         margin-right: 25px;
     }
+    
+    .top-120{
+        margin-top: 60px;
+    }
+    
+    .m-80{
+        margin: 40 0 40 0;
+    }
+    
+    
+    
+    .centrato{
+        padding: 0 20 0 20;
+    }
+    
+    h5{
+        font-size: 12px;
+    }
+    
+    h2{
+        font-size: 26px;
+        letter-spacing: 0.8px;
+        margin-bottom: 10px;
+    } 
+    
+    .m-10-50{
+        margin: 10 0 50 0; !important
+    }
+    
+    
 }
