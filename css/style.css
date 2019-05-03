@@ -484,7 +484,7 @@ left: 50%;
 @media (max-width: 992px) {
     
     .copertina{
-        height: 600px;
+        height: 100vh;
     }
     
    
