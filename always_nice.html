@@ -33,54 +33,39 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="300">
 
   
-<!--Vecchia navbar
-<nav class="navbar-custom navbar-fixed-top nav-up" role="navigation">
-        <div class="container-fluid container-navbar">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" onclick="openMenu()">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-            </div>
-            <div class="col-md-12 collapse navbar-collapse navbar-main-collapse">
-                <ul class="nav navbar-nav" onclick="openMenu()">
-                    <li><a id="logo" href="#intro">Giacomo Flaim</a></li>
-					<li><a class="other-menu" href="#about">Right</a></li>
-      				<li><a class="other-menu" href="#contact">Right</a></li>
-                </ul>
-				<ul class="nav navbar-nav navbar-right">
-				</ul>
-            </div>
-        </div>
- </nav>
-	
+
     
 <!-- MENU XS SM -->
 
-<nav class="navbar navbar-custom navbar-fixed-top container container-navbar nav-up" role="navigation">
-	
-	  <div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		</button>    
-	  </div>
-	  <div class="navbar-collapse collapse"style="margin-top: 1rem;">
-		<ul class="nav navbar-nav navbar-left">
-			<li><a href="index.html">Giacomo Flaim</a></li>
+<nav class="navbar navbar-my navbar-fixed-top container container-navbar nav-up">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar style-bar"></span>
+        <span class="icon-bar style-bar"></span>
+        <span class="icon-bar style-bar"></span>
+      </button>      
+    </div>
 
-		</ul>
-		<ul class="nav navbar-nav navbar-right">
-		  <li><a href="#about">about me</a></li>
-		  <li><a href="#contact">Say hello!</a></li>
-		</ul>
-	  </div>
-	
-</nav>   
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 1rem;">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="index.html">Giacomo Flaim</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">about me</a></li>
+        <li id="hello-dx"><a href="mailto:giacomo.flaim@gmail.com">Say hello!</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>  
         
       
       
-<div class="container" style="margin-top: 120px;">        
+<div class="container top-120">        
 	<div class="row">
 		<div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12 centrato">
 			<h5>Information Design</h5> <h5>Web Design</h5> <h5>UX/UI</h5>
@@ -107,7 +92,7 @@
 		<div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12 centrato">
 			<p>He was always nice is an <span class="t_h">interactive</span> and <span class="t_h">explorable</span> website about mass shootings, as seen through the eyes of data visualization. Starting from 1966, the <a class="team_link" href="https://www.fbi.gov/" target="_blank">FBI</a>, and later the <a class="team_link" href="https://library.stanford.edu/projects/mass-shootings-america" target="_blank">Stanford University</a>, collected and analyzed 358 different unique cases of mass murders in the US that happened until the end of 2017.
 			The number of unique cases is based on the previous definition, that we adopted for this analysis.
-			But while reading about single episodes, having a comprehensive overview on all recorded events shines a new light on the issue: comparing the most infamous events to one another, mapping all incidents and crossing victims with gun controls laws and bills allows the reader to connect points and gather information both on a bird's eye view and on a more intimate level.
+                But while reading about single episodes, having a comprehensive overview on all recorded events <span class="t_h">shines a new light on the issue</span>: comparing the most infamous events to one another, mapping all incidents and crossing victims with gun controls laws and bills allows the reader to connect points and gather information both on a bird's eye view and on a more intimate level.
 			</p>
 		</div>
 		<div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12">
@@ -119,34 +104,38 @@
 		
 	</div>
 
-	<div class="row full-website" style="margin-bottom: 90px;">
+	<div class="row full-website" style="margin-top: 80px;">
 			<a href="http://killingbees.com/" 	target="_blank">
 			<button type="button" class="btn my-btn" style="padding-top:12px">Explore the full website</button>
 			</a>
 	</div>
 	
 	
-	<div class="container" style="margin-top: 180px; margin-bottom: 50px;">
+<div class="container normal-foot" style="margin-top: 180px; margin-bottom: 50px;">
 	<div class="row">
-		<div class="col-md-offset-4 col-md-4">
-			<h7 style="text-align: center">Made with <span id="cuore">❤️</span>by Giacomo Flaim | © All rights reserved 2018</h7>
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<h6 class="copyright">Made with <span id="cuore">❤️ </span> by Giacomo Flaim | © All rights reserved 2018</h6>
 		</div>
-	</div>
-	
+	</div>	
 </div>
-	
-	
-	
-	
-	
-	
-
-
-
-
-
-
+    
+<div class="container only-mobile" style="margin-top: 180px; margin-bottom: 50px;">
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<h6 class="copyright">Made with <span id="cuore">❤️ </span> by Giacomo Flaim<br>© All rights reserved 2018</h6>
+		</div>
+	</div>	
 </div>
+</div>
+
+    
+<!-- script -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>    
+<script src="js/my-js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    
         
           
      

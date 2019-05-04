@@ -16,6 +16,9 @@
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style-project.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-t.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
    
     
     
@@ -33,50 +36,36 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="300">
 
   
-<!--Vecchia navbar
-<nav class="navbar-custom navbar-fixed-top nav-up" role="navigation">
-        <div class="container-fluid container-navbar">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" onclick="openMenu()">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-            </div>
-            <div class="col-md-12 collapse navbar-collapse navbar-main-collapse">
-                <ul class="nav navbar-nav" onclick="openMenu()">
-                    <li><a id="logo" href="#intro">Giacomo Flaim</a></li>
-					<li><a class="other-menu" href="#about">Right</a></li>
-      				<li><a class="other-menu" href="#contact">Right</a></li>
-                </ul>
-				<ul class="nav navbar-nav navbar-right">
-				</ul>
-            </div>
-        </div>
- </nav>
-	
+
     
 <!-- MENU XS SM -->
+    
+<nav class="navbar navbar-my navbar-fixed-top container container-navbar nav-up">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar style-bar"></span>
+        <span class="icon-bar style-bar"></span>
+        <span class="icon-bar style-bar"></span>
+      </button>      
+    </div>
 
-<nav class="navbar navbar-custom navbar-fixed-top container container-navbar nav-up" role="navigation">
-	
-	  <div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		</button>    
-	  </div>
-	  <div class="navbar-collapse collapse"style="margin-top: 1rem;">
-		<ul class="nav navbar-nav navbar-left">
-			<li><a href="index.html">Giacomo Flaim</a></li>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 1rem;">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="index.html">Giacomo Flaim</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">about me</a></li>
+        <li id="hello-dx"><a href="mailto:giacomo.flaim@gmail.com">Say hello!</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-		</ul>
-		<ul class="nav navbar-nav navbar-right">
-		  <li><a href="#about">about me</a></li>
-		  <li><a href="#contact">Say hello!</a></li>
-		</ul>
-	  </div>
-	
-</nav>   
         
       
       
@@ -94,9 +83,9 @@
 			<img src="./image/ddim/home.gif" class="img-responsive img-1">
 		</div>
 		<div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12 centrato">
-			<p class="m-80">Digital Driven Ideation Methods is method-kit made up of six methods, based on tools already known by ux and service designers, that aims to encourage and facilitate the ideas generation process during co-design sessions.
+            <p class="m-80">Digital Driven Ideation Methods is method-kit made up of six methods, based on tools already known by ux and service designers, that aims to encourage and facilitate the <span class="t_h">ideas generation process</span> during co-design sessions.
             <br>The website is the final output and part of my master thesis.
-            The MA thesis project (MA in Communication Design at Politecnico Milano) is intended to explore a syncretism between the two approaches previously submitted, through the creation of a data-driven methodkit, to be used in the ideation phase. The methodkit takes and applies the Digital Methods tools in the creation of products and services in order to generate new ideas.</p>
+            <br>The <span class="t_h">MA thesis</span> project (MA in Communication Design at Politecnico Milano) is intended to explore a syncretism between two approaches - Digital Methods & Human-Centered Design - through the creation of a <span class="t_h">data-driven methodkit</span>, to be used in the ideation phase. The methodkit takes and applies the <a class="team_link" href="https://wiki.digitalmethods.net/Dmi/ToolDatabase" target="_blank">Digital Methods tools</a> in the creation of products and services in order to generate new ideas.</p>
 		</div>
 		<div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12">
 			<img src="./image/ddim/methods.png" class="img-responsive">
@@ -105,7 +94,7 @@
 			<img src="./image/ddim/tips.png" class="img-responsive img-1">
 		</div>
         <div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12 centrato">
-			<p class="m-80">Digital Methods can be used to augment the ideation capabilities of a team by quickly collecting stimuli in the online field, and use them to inject fresh energies and inspirations during co-design sessions.Lateral thinking techniques can be empowered by Digital Methods, leveraging large sets of data as a resource to generate random entries, provocation statements and sorting exercises.</p>
+            <p class="m-80"><span class="t_h">Digital Methods</span> can be used to augment the ideation capabilities of a team by quickly collecting stimuli in the online field, and use them to inject fresh energies and inspirations during co-design sessions. <span class="t_h">Lateral thinking</span> techniques can be empowered by Digital Methods, leveraging large sets of data as a resource to generate random entries, provocation statements and sorting exercises.</p>
 		</div>
     </div>
     <div class="row">
@@ -114,27 +103,27 @@
         </div>
     </div>
     <div class="row vertical-align">
-        <div class="col-md-offset-1 col-md-2 col-xs-offset-2 col-xs-8">
+        <div class="col-xs-offset-2 col-xs-8 col-md-offset-1 col-md-2">
 			<img src="./image/ddim/mariekondo.png" class="img-responsive">
 		</div>
-        <div class="col-md-3 col-xs-12">
+        <div class="col-xs-12 col-md-3">
             <p class="m-10-50"><span class="t_h">Marie Kondo</span> helps you to group, organize and prioritize set of digital traces, in order to come up with a brand new idea.</p>
         </div>
-        <div class="col-md-2 col-xs-offset-2 col-xs-8">
+        <div class="col-xs-8 col-xs-offset-2 col-md-2 col-md-offset-0">
 			<img src="./image/ddim/Flat_earth.png" class="img-responsive">
 		</div>
-        <div class="col-md-3 col-xs-12">
+        <div class="col-xs-12 col-md-3">
             <p class="m-10-50"><span class="t_h">Flat Earth</span> is a problem reversal method that helps you generate new ideas by denying a common behaviour or pattern in a set of digital traces.</p>
         </div>
     </div>    
     <div class="row vertical-align">
-        <div class="col-md-offset-1 col-md-2 col-xs-offset-2 col-xs-8">
+        <div class="col-xs-offset-2 col-xs-8 col-md-offset-1 col-md-2">
 			<img src="./image/ddim/Super_Jump.png" class="img-responsive">
 		</div>
-        <div class="col-md-3 col-xs-12">
+        <div class="col-xs-12 col-md-3">
             <p class="m-10-50"><span class="t_h">Super Jump</span> is a generative method, based on the analysis of parallel worlds, where part of the experiences you are trying to design are well solved.</p>
         </div>
-        <div class="col-md-2 col-xs-offset-2 col-xs-8">
+        <div class="col-xs-8 col-xs-offset-2 col-md-2 col-md-offset-0">
 			<img src="./image/ddim/Open_Mic.png" class="img-responsive">
 		</div>
         <div class="col-md-3 col-xs-12">
@@ -148,10 +137,10 @@
         <div class="col-md-3 col-xs-12">
             <p class="m-10-50"><span class="t_h">Godsend</span> is a generative random method, which is based on connection between a random entry and your field of investigation.</p>
         </div>
-        <div class="col-md-2 col-xs-offset-2 col-xs-8">
+        <div class="col-xs-8 col-xs-offset-2 col-md-2 col-md-offset-0">
 			<img src="./image/ddim/Flock_Of_Birds.png" class="img-responsive">
 		</div>
-        <div class="col-md-3 col-xs-12">
+        <div class="col-xs-12 col-md-3">
             <p class="m-10-50"><span class="t_h">Flock Of Birds</span> will allow you to map connections between elements in a set of digital traces, in order to identify clusters and patterns inside it.</p>
         </div>
     </div>
@@ -165,7 +154,7 @@
 	
 	
 	
-	<div class="container normal-foot" style="margin-top: 180px; margin-bottom: 50px;">
+<div class="container normal-foot" style="margin-top: 180px; margin-bottom: 50px;">
 	<div class="row">
 		<div class="col-md-12 col-sm-12 col-xs-12">
 			<h6 class="copyright">Made with <span id="cuore">❤️ </span> by Giacomo Flaim | © All rights reserved 2018</h6>
@@ -181,4 +170,12 @@
 	</div>	
 </div>
 </div>    
+
+<!-- script -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>    
+<script src="js/my-js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    
 </body>

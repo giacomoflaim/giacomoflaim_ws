@@ -33,54 +33,39 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="300">
 
   
-<!--Vecchia navbar
-<nav class="navbar-custom navbar-fixed-top nav-up" role="navigation">
-        <div class="container-fluid container-navbar">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" onclick="openMenu()">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-            </div>
-            <div class="col-md-12 collapse navbar-collapse navbar-main-collapse">
-                <ul class="nav navbar-nav" onclick="openMenu()">
-                    <li><a id="logo" href="#intro">Giacomo Flaim</a></li>
-					<li><a class="other-menu" href="#about">Right</a></li>
-      				<li><a class="other-menu" href="#contact">Right</a></li>
-                </ul>
-				<ul class="nav navbar-nav navbar-right">
-				</ul>
-            </div>
-        </div>
- </nav>
-	
-    
+
+
 <!-- MENU XS SM -->
 
-<nav class="navbar navbar-custom navbar-fixed-top container container-navbar nav-up" role="navigation">
-	
-	  <div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		</button>    
-	  </div>
-	  <div class="navbar-collapse collapse"style="margin-top: 1rem;">
-		<ul class="nav navbar-nav navbar-left">
-			<li><a href="index.html">Giacomo Flaim</a></li>
+<nav class="navbar navbar-my navbar-fixed-top container container-navbar nav-up">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar style-bar"></span>
+        <span class="icon-bar style-bar"></span>
+        <span class="icon-bar style-bar"></span>
+      </button>      
+    </div>
 
-		</ul>
-		<ul class="nav navbar-nav navbar-right">
-		  <li><a href="#about">about me</a></li>
-		  <li><a href="#contact">Say hello!</a></li>
-		</ul>
-	  </div>
-	
-</nav>   
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 1rem;">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="index.html">Giacomo Flaim</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">about me</a></li>
+        <li id="hello-dx"><a href="mailto:giacomo.flaim@gmail.com">Say hello!</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>  
         
       
       
-<div class="container" style="margin-top: 120px;">        
+<div class="container top-120">        
 	<div class="row">
 		<div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12 centrato">
 			<h5>Infopoetry</h5> <h5>Data Art</h5>
@@ -94,7 +79,7 @@
 			<img src="./image/infopoetry/IP_4.jpg" class="img-responsive img-1">
 		</div>
 		<div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12 centrato">
-			<p style="margin-top:80px;margin-bottom:80px;">
+			<p class="m-80">
                 Have you ever tried to think how much do you smoke in <span class="t_h">year</span>?<br>
                 Smoking is the leading cause of preventable death all over the world.In Italy smoking cause the death of <span class="t_h">c.a 83.000 people</span> every year.
                 Nowdays, thanks to social advertising, everybody knows that smoking is dangerous in so many ways but even though <span class="t_h">over 24%</span> of the Italian population smokes.
@@ -104,7 +89,7 @@
 			<img src="./image/infopoetry/IP_1.jpg" class="img-responsive" style="width:100%">
 		</div>
 		<div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12 centrato">
-			<p style="margin-top:80px;margin-bottom:80px;">Smoking is a daily routine which is very difficult to <span class="t_h">quantify visually</span> over a long period, as a year can be; at the same time it is equally hard to realize the damage that every <span class="t_h">single cigarette</span> can cause to an habitual smoker and how much smoke can affect life expectancy.<br>This tridimensional visualization shows the <span class="t_h">average annual</span> cigarette consumption per adult italian smoker and the resulting <span class="t_h">loss of life</span> based on mediacal research.</p>
+			<p class="m-80">Smoking is a daily routine which is very difficult to <span class="t_h">quantify visually</span> over a long period, as a year can be; at the same time it is equally hard to realize the damage that every <span class="t_h">single cigarette</span> can cause to an habitual smoker and how much smoke can affect life expectancy.<br>This tridimensional visualization shows the <span class="t_h">average annual</span> cigarette consumption per adult italian smoker and the resulting <span class="t_h">loss of life</span> based on mediacal research.</p>
 		</div>
 		<div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12 centrato">
 			<img src="./image/infopoetry/IP_3.jpg" class="img-responsive" style="margin-bottom: 60px">
@@ -113,25 +98,25 @@
 			<img src="./image/infopoetry/IP_5.jpg" class="img-responsive" style="margin-bottom: 60px">
 		</div>
 	</div>
-    <div class="col-md-offset-1 col-md-10 centrato" style="margin-top:0px; margin-bottom:120px">
+    <div class="col-md-offset-1 col-md-10 centrato">
         <div class="row">
             <h5>Infopoetry</h5>
             <p style="margin-top: 10px">The visualization was designed during the 2016/2017 edition of the Final Synthesis Studio at <a class="team_link" href="http://www.densitydesign.org" target="_blank">Density Design Lab</a>. As an individual assignment each student was asked to realize an <span class="t_h">Infopoetry</span>: a form of data-art based on <span class="t_h">visual metaphors</span> which main objective is to allow new images to emerge that are not committed only to the precision of data but that tell a story and provide a quick overview of the phenomenon.</p>
         </div>        
 	</div>
-    <div class="row">
-    <div class="col-md-offset-1 col-md-10 centrato" style="margin-top:0px; margin-bottom:0px">
-			<h5>Material</h5>
-                <h6>Wood</h6>
-                <h6>Metal sheets</h6>
-                <h6>Cigarettes</h6>
-                <h6>Spray Paint</h6>
-                <div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12 centrato">
-	           </div>
-            <img src="./image/infopoetry/IP_5.jpg" class="img-responsive" style="margin-bottom: 60px">
+    <div class="row top-120">
+        <div class="col-md-offset-1 col-md-10 centrato" style="margin-top:0px; margin-bottom:0px">
+                <h5>Material</h5>
+                    <h6>Wood</h6>
+                    <h6>Metal sheets</h6>
+                    <h6>Cigarettes</h6>
+                    <h6>Spray Paint</h6>
+                    <div class="col-md-offset-1 col-md-10 col-sm-9 col-xs-12 centrato">
+                   </div>
+                <img src="./image/infopoetry/IP_5.jpg" class="img-responsive" style="margin-bottom: 60px">
+        </div>
     </div>
-    </div>
-    <div class="col-md-offset-1 col-md-10 centrato" style="margin-top:0px; margin-bottom:120px">
+    <div class="col-md-offset-1 col-md-10 centrato">
         <div class="row">
             <h5>pubblication</h5>
             <h6><a class="team_link" href="http://dataphys.org/list/are-you-sure-you-want-to-smoke/" target="_blank">Dataphys</a></h6>
@@ -139,19 +124,30 @@
                 
         </div>        
 	</div>
+	
+	<div class="container normal-foot" style="margin-top: 180px; margin-bottom: 50px;">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h6 class="copyright">Made with <span id="cuore">❤️ </span> by Giacomo Flaim | © All rights reserved 2018</h6>
+            </div>
+        </div>	
+    </div>
     
-    
-	
-	
-	
-	<div class="container" style="margin-top: 180px; margin-bottom: 50px;">
-	<div class="row">
-		<div class="col-md-offset-4 col-md-4">
-			<h7 style="text-align: center">Made with <span id="cuore">❤️</span>by Giacomo Flaim | © All rights reserved 2018</h7>
-		</div>
-	</div>
-	
-</div>
+    <div class="container only-mobile" style="margin-top: 180px; margin-bottom: 50px;">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h6 class="copyright">Made with <span id="cuore">❤️ </span> by Giacomo Flaim<br>© All rights reserved 2018</h6>
+            </div>
+        </div>	
+    </div>
+</div>    
+
+<!-- script -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>    
+<script src="js/my-js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	
 	
 	
