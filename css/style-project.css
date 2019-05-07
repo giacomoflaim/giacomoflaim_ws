@@ -97,15 +97,25 @@ h8{
     letter-spacing: 0.3px;   
 }
 
+h9{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    margin-top: 15px;
+     
+}
+
 
 
 #cuore{
-	font-size: 15px;
 	color: transparent;
  	background-image: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
   	color: transparent;
   	-webkit-background-clip: text;
   	background-clip: text;
+    font-weight: 500;
 }
 
 .team_link{
@@ -125,14 +135,7 @@ h8{
 	
 }
 
-h6 mark{
-    background-color: transparent;
-    color: #0400e7;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 100;
-    font-size: 16px;
-    padding-left: 1px;
-}
+
 
 
 
@@ -148,6 +151,25 @@ p{
 p {
     font-feature-settings: "liga"  0; 
 }
+
+
+.about-font{
+    margin: 15 0 0 0;
+}
+
+.point{
+    font-weight: 600;
+    color: rgb(113, 7, 252);
+    font-size: 18px;
+}
+
+.line-hr{
+    margin: 15 30 0 0;
+    border: 0;
+    border-top: 2px solid rgb(113, 7, 252);
+    
+}
+
 
 .t_h{
 	background-image:linear-gradient(180deg,transparent 58%, rgba(113, 7, 252,.25) 0);
@@ -232,6 +254,14 @@ p {
     margin-top: 120px;
 }
 
+.top-60{
+    margin-top: 60px;
+}
+
+.top-20{
+    margin-top: 20px;
+}
+
 .m-80{
     margin: 80 0 80 0;
 }
@@ -293,6 +323,42 @@ p {
 	padding-right: 52px;
 }
 
+
+
+
+ .color-change{
+        -webkit-animation: color-change 1.5s ease infinite;
+        -moz-animation: color-change 1.5s ease infinite;
+        -o-animation: color-change 1.5s ease infinite;
+        -ms-animation: color-change 1.5s ease infinite;
+        animation: color-change 1.5s ease infinite;
+    }
+
+    @-webkit-keyframes color-change {
+        0% { color: rgb(116, 223, 239); }
+        50% { color: rgb(117, 7, 252); }
+        100% { color: rgb(116, 223, 239); }
+    }
+    @-moz-keyframes color-change {
+        0% { color: rgb(116, 223, 239); }
+        50% { color: rgb(117, 7, 252); }
+        100% { color: rgb(116, 223, 239); }
+    }
+    @-ms-keyframes color-change {
+        0% { color: rgb(116, 223, 239); }
+        50% { color: rgb(117, 7, 252); }
+        100% { color: rgb(116, 223, 239); }
+    }
+    @-o-keyframes color-change {
+        0% { color: rgb(116, 223, 239); }
+        50% { color: rgb(117, 7, 252); }
+        100% { color: rgb(116, 223, 239); }
+    }
+    @keyframes color-change {
+        0% { color: rgb(116, 223, 239); }
+        50% { color: rgb(117, 7, 252); }
+        100% { color: rgb(116, 223, 239); }
+    }
 
 
 /*
@@ -411,14 +477,22 @@ project-by{
         margin: 40 0 40 0;
     }
     
+    .top-60{
+        margin-top: 30px;
+    }
+    
+    p{
+        font-size: 17px;
+    }
+    
     
     
     .centrato{
         padding: 0 20 0 20;
     }
     
-    h5{
-        font-size: 12px;
+    h5, h6{
+        font-size: 16px;
     }
     
     h2{
