@@ -12,10 +12,10 @@ body {
     background-color: white; 
 }
 
-/*
-a:link    {color:black; background-color:transparent; text-decoration:none; font-weight: bold}
-a:visited {color:black; background-color:transparent; text-decoration:none}
-a:hover   {color:black; background-color:transparent; text-decoration:none; font-weight: bolder}
+
+a:link    {background-color:transparent; text-decoration:none;}
+a:visited {background-color:transparent; text-decoration:none}
+a:hover   {background-color:transparent; text-decoration:none;}
 
 
 /* font */ 
@@ -503,7 +503,7 @@ project-by{
     
     .m-10-50{
         margin: 10 0 50 0; !important
-    }
-    
+    }   
     
 }
+
